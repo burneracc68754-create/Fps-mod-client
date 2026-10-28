@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.neonlyrics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockEntityRenderManagerMixin",
+    "EntityRendererMixin",
+    "EntityRendererPerfMixin",
+    "FogRendererMixin",
+    "HandMixin",
+    "ParticleManagerMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
